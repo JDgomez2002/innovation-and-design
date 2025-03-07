@@ -3,9 +3,9 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{Prefacio}{\es@scroman {iii}}{section*.3}%
 \contentsline {chapter}{Agradecimientos}{\es@scroman {iv}}{section*.4}%
-\contentsline {chapter}{Lista de Figuras}{\es@scroman {vi}}{section*.6}%
-\contentsline {chapter}{Lista de Cuadros}{\es@scroman {vii}}{section*.7}%
-\contentsline {chapter}{Resumen}{\es@scroman {viii}}{section*.8}%
+\contentsline {chapter}{Lista de Figuras}{\es@scroman {vii}}{section*.6}%
+\contentsline {chapter}{Lista de Cuadros}{\es@scroman {viii}}{section*.7}%
+\contentsline {chapter}{Resumen}{\es@scroman {ix}}{section*.8}%
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.9}%
 \contentsline {chapter}{\numberline {2}Objetivos}{2}{chapter.10}%
 \contentsline {section}{\numberline {2.1}Objetivo General}{2}{section.11}%

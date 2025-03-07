@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.25)  25 FEB 2025 11:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.25)  6 MAR 2025 21:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -585,8 +585,14 @@ Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \py=\skip81
 \pyy=\skip82
 \pxx=\skip83
-) (./paquetes_y_comandos_usuario.tex)
-No file main.aux.
+) (./paquetes_y_comandos_usuario.tex) (./main.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
+LaTeX Info: Redefining \. on input line 16.
+LaTeX Info: Redefining \% on input line 16.
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
@@ -609,7 +615,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
 LaTeX Font Info:    ... okay on input line 84.
 LaTeX Info: Redefining \. on input line 84.
 LaTeX Info: Redefining \% on input line 84.
-(/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count340
 \scratchdimen=\dimen264
@@ -635,6 +641,7 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring OFF on input line 84.
+ (./main.out) (./main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
@@ -725,16 +732,16 @@ LaTeX Info: Redefining \% on input line 84.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (2.66866pt too wide) in paragraph at lines 98--98
-\T1/cmr/m/n/24.88 Diseño e Im-ple-men-ta-ción de un Ac-tua-dor Bio-
+Overfull \hbox (10.37727pt too wide) in paragraph at lines 98--98
+\T1/cmr/m/n/24.88 orien-ta-ción vo-ca-cio-nal de es-tu-dian-tes gra-duan-
  []
 
-<plantilla/portadacit.jpg, id=4, 1927.2pt x 752.8125pt>
+<plantilla/portadacit.jpg, id=104, 1927.2pt x 752.8125pt>
 File: plantilla/portadacit.jpg Graphic file (type jpg)
 <use plantilla/portadacit.jpg>
 Package pdftex.def Info: plantilla/portadacit.jpg  used on input line 110.
 (pdftex.def)             Requested size: 965.1268pt x 376.99901pt.
-<plantilla/fondologo_grande.png, id=5, 969.02025pt x 430.0065pt>
+<plantilla/fondologo_grande.png, id=105, 969.02025pt x 430.0065pt>
 File: plantilla/fondologo_grande.png Graphic file (type png)
 <use plantilla/fondologo_grande.png>
 Package pdftex.def Info: plantilla/fondologo_grande.png  used on input line 110.
@@ -743,14 +750,12 @@ Package epstopdf Info: Source file: <plantilla/logoUVGblanco.eps>
 (epstopdf)                    date: 2025-02-25 16:41:16
 (epstopdf)                    size: 733366 bytes
 (epstopdf)             Output file: <plantilla/logoUVGblanco-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-02-27 17:04:01
+(epstopdf)                    size: 8721 bytes
 (epstopdf)             Command: <repstopdf --outfile=plantilla/logoUVGblanco-eps-converted-to.pdf plantilla/logoUVGblanco.eps>
 (epstopdf)             \includegraphics on input line 110.
-runsystem(repstopdf --outfile=plantilla/logoUVGblanco-eps-converted-to.pdf plantilla/logoUVGblanco.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <plantilla/logoUVGblanco-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-02-25 11:39:00
-(epstopdf)                    size: 8720 bytes.
-<plantilla/logoUVGblanco-eps-converted-to.pdf, id=7, 680.5425pt x 174.6525pt>
+Package epstopdf Info: Output file is already uptodate.
+<plantilla/logoUVGblanco-eps-converted-to.pdf, id=107, 680.5425pt x 174.6525pt>
 File: plantilla/logoUVGblanco-eps-converted-to.pdf Graphic file (type pdf)
 <use plantilla/logoUVGblanco-eps-converted-to.pdf>
 Package pdftex.def Info: plantilla/logoUVGblanco-eps-converted-to.pdf  used on input line 110.
@@ -765,14 +770,12 @@ Package epstopdf Info: Source file: <plantilla/escudoUVGnegro.eps>
 (epstopdf)                    date: 2025-02-25 16:41:16
 (epstopdf)                    size: 353392 bytes
 (epstopdf)             Output file: <plantilla/escudoUVGnegro-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-02-27 17:04:02
+(epstopdf)                    size: 37938 bytes
 (epstopdf)             Command: <repstopdf --outfile=plantilla/escudoUVGnegro-eps-converted-to.pdf plantilla/escudoUVGnegro.eps>
 (epstopdf)             \includegraphics on input line 134.
-runsystem(repstopdf --outfile=plantilla/escudoUVGnegro-eps-converted-to.pdf plantilla/escudoUVGnegro.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <plantilla/escudoUVGnegro-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-02-25 11:39:01
-(epstopdf)                    size: 37939 bytes.
-<plantilla/escudoUVGnegro-eps-converted-to.pdf, id=20, 141.52875pt x 209.78375pt>
+Package epstopdf Info: Output file is already uptodate.
+<plantilla/escudoUVGnegro-eps-converted-to.pdf, id=120, 141.52875pt x 209.78375pt>
 File: plantilla/escudoUVGnegro-eps-converted-to.pdf Graphic file (type pdf)
 <use plantilla/escudoUVGnegro-eps-converted-to.pdf>
 Package pdftex.def Info: plantilla/escudoUVGnegro-eps-converted-to.pdf  used on input line 134.
@@ -799,30 +802,57 @@ File: t1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 ] (./agradecimientos.tex) [4
 
 
-]
-No file main.toc.
+] (./main.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+LaTeX Info: Redefining \. on input line 3.
+LaTeX Info: Redefining \% on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [5
+
+])
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
-[5
-
-]
-No file main.lof.
+LaTeX Info: Redefining \. on input line 224.
+LaTeX Info: Redefining \% on input line 224.
+ [6] (./main.lof
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+LaTeX Info: Redefining \. on input line 3.
+LaTeX Info: Redefining \% on input line 3.
+)
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
-[6
+ [7
 
 
-]
-No file main.lot.
+] (./main.lot
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+LaTeX Info: Redefining \. on input line 3.
+LaTeX Info: Redefining \% on input line 3.
+)
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
-[7
+ [8
 
 
-] (./resumen.tex) [8
+] (./resumen.tex) [9
 
 
 ]
@@ -902,34 +932,28 @@ L3 programming layer <2024-02-20>
 
 LaTeX Warning: There were undefined references.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  4D1FD195AB3783A9D41F55C81B1CF5F4;3282.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 4D1FD195AB3783A9D41F55C81B1CF5F4;3282.
  ) 
 Here is how much of TeX's memory you used:
- 22642 strings out of 474116
- 395288 string characters out of 5743682
- 1931187 words of memory out of 5000000
- 44560 multiletter control sequences out of 15000+600000
- 568040 words of font info for 49 fonts, out of 8000000 for 9000
+ 22721 strings out of 474116
+ 396399 string characters out of 5743682
+ 1934187 words of memory out of 5000000
+ 44612 multiletter control sequences out of 15000+600000
+ 570428 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,10n,107p,2398b,585s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,10n,107p,2398b,1000s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{glo:formula} has been referenced but does not exist, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{glo:latex} has been referenced but does not exist, replaced by a fixed one
 
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsl1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss2488.pfb>
-Output written on main.pdf (21 pages, 597463 bytes).
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsl1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss2488.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfxc1000.pfb>
+Output written on main.pdf (22 pages, 622901 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
- 162 compressed objects within 2 object streams
- 53 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 329 PDF objects out of 1000 (max. 8388607)
+ 268 compressed objects within 3 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 
