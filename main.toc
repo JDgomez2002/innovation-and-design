@@ -7,22 +7,23 @@
 \contentsline {chapter}{Lista de Cuadros}{\es@scroman {viii}}{section*.7}%
 \contentsline {chapter}{Resumen}{\es@scroman {ix}}{section*.8}%
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.9}%
-\contentsline {chapter}{\numberline {2}Objetivos}{2}{chapter.10}%
-\contentsline {section}{\numberline {2.1}Objetivo General}{2}{section.11}%
-\contentsline {section}{\numberline {2.2}Objetivos Específicos}{2}{section.12}%
-\contentsline {chapter}{\numberline {3}Justificación}{3}{chapter.13}%
-\contentsline {chapter}{\numberline {4}Marco Teórico}{4}{chapter.14}%
-\contentsline {chapter}{\numberline {5}Antecedentes}{5}{chapter.15}%
-\contentsline {chapter}{\numberline {6}Alcance}{6}{chapter.16}%
-\contentsline {chapter}{\numberline {7}Derivación de la dinámica del mecanismo}{7}{chapter.17}%
-\contentsline {section}{\numberline {7.1}Dinámica de cuerpos rígidos}{7}{section.18}%
-\contentsline {section}{\numberline {7.2}Restricciones}{7}{section.19}%
-\contentsline {subsection}{\numberline {7.2.1}Mecanismos de lazo cerrado}{7}{subsection.20}%
-\contentsline {subsubsection}{Mecanismo de cuatro barras}{7}{section*.21}%
-\contentsline {chapter}{\numberline {8}Control del sistema mecánico}{8}{chapter.22}%
-\contentsline {section}{\numberline {8.1}La ecuación del manipulador}{8}{section.23}%
-\contentsline {chapter}{\numberline {9}Conclusiones}{9}{chapter.24}%
-\contentsline {chapter}{\numberline {10}Recomendaciones}{10}{chapter.25}%
-\contentsline {chapter}{Bibliografía}{11}{section*.26}%
-\contentsline {chapter}{Anexos}{11}{section*.27}%
-\contentsline {chapter}{\numberline {A}Planos de Construcción}{11}{chapter.28}%
+\contentsline {chapter}{\numberline {2}Objetivos}{3}{chapter.10}%
+\contentsline {section}{\numberline {2.1}Objetivo General}{3}{section.11}%
+\contentsline {section}{\numberline {2.2}Objetivos Específicos}{3}{section.12}%
+\contentsline {chapter}{\numberline {3}Justificación}{5}{chapter.13}%
+\contentsline {chapter}{\numberline {4}Marco Teórico}{7}{chapter.14}%
+\contentsline {chapter}{\numberline {5}Antecedentes}{8}{chapter.15}%
+\contentsline {chapter}{\numberline {6}Alcance}{9}{chapter.16}%
+\contentsline {chapter}{\numberline {7}Derivación de la dinámica del mecanismo}{10}{chapter.17}%
+\contentsline {section}{\numberline {7.1}Dinámica de cuerpos rígidos}{10}{section.18}%
+\contentsline {section}{\numberline {7.2}Restricciones}{10}{section.19}%
+\contentsline {subsection}{\numberline {7.2.1}Mecanismos de lazo cerrado}{10}{subsection.20}%
+\contentsline {subsubsection}{Mecanismo de cuatro barras}{10}{section*.21}%
+\contentsline {chapter}{\numberline {8}Control del sistema mecánico}{11}{chapter.22}%
+\contentsline {section}{\numberline {8.1}La ecuación del manipulador}{11}{section.23}%
+\contentsline {chapter}{\numberline {9}Conclusiones}{12}{chapter.24}%
+\contentsline {chapter}{\numberline {10}Recomendaciones}{13}{chapter.25}%
+\contentsline {chapter}{Bibliografía}{14}{section*.26}%
+\contentsline {section}{\numberline {10.1}Bibliografía}{14}{section.27}%
+\contentsline {chapter}{Anexos}{15}{section*.28}%
+\contentsline {chapter}{\numberline {A}Planos de Construcción}{15}{chapter.29}%
