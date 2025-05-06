@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.25)  31 MAR 2025 22:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.25)  5 MAY 2025 22:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/jdgomez/UVG/Innovation & Design/innovation-and-design/main"
+**"/Users/jdgomez/UVG/Innovation & Design/innovation-and-design/main.tex"
 (/Users/jdgomez/UVG/Innovation & Design/innovation-and-design/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -592,6 +592,10 @@ LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
 LaTeX Info: Redefining \. on input line 16.
 LaTeX Info: Redefining \% on input line 16.
+LaTeX Info: Redefining \. on input line 63.
+LaTeX Info: Redefining \% on input line 63.
+LaTeX Info: Redefining \. on input line 64.
+LaTeX Info: Redefining \% on input line 64.
 )
 \openout1 = `main.aux'.
 
@@ -811,7 +815,12 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [5
+)
+LaTeX Info: Redefining \. on input line 26.
+LaTeX Info: Redefining \% on input line 26.
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
+ [5
 
 ])
 \tf@toc=\write7
@@ -826,6 +835,10 @@ LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
 )
 \tf@lof=\write8
 \openout8 = `main.lof'.
@@ -840,6 +853,10 @@ LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
 )
 \tf@lot=\write9
 \openout9 = `main.lot'.
@@ -869,114 +886,119 @@ Cap\'{\i }tulo 3.
 (./justificacion.tex) [5
 
 ]
-LaTeX Info: Redefining \. on input line 296.
-LaTeX Info: Redefining \% on input line 296.
- [6]
 Cap\'{\i }tulo 4.
-(./marco_teorico.tex) [7
+(./marco_teorico.tex) [6
 
 ]
 Cap\'{\i }tulo 5.
 (./antecedentes.tex
 
-LaTeX Warning: Citation `hoover2010bio' on page 8 undefined on input line 1.
+LaTeX Warning: Citation `hoover2010bio' on page 7 undefined on input line 1.
 
 
-LaTeX Warning: Citation `park2014design' on page 8 undefined on input line 1.
+LaTeX Warning: Citation `park2014design' on page 7 undefined on input line 1.
 
-) [8
+) [7
 
 ]
 Cap\'{\i }tulo 6.
-(./alcance.tex) [9
+(./alcance.tex) [8
 
 ] (./capitulos.tex
 Cap\'{\i }tulo 7.
-[10
+[9
 
 ]
 Cap\'{\i }tulo 8.
-) [11
+) [10
 
 ]
 Cap\'{\i }tulo 9.
-(./conclusiones.tex) [12
+(./conclusiones.tex) [11
 
 ]
 Cap\'{\i }tulo 10.
-(./recomendaciones.tex) [13
+(./recomendaciones.tex) [12
 
-]
-No file main.bbl.
-(./bibliografia.tex
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2.
+] (./main.bbl
+babelbib: Using the BibTeX style's default font for `name'.
+babelbib: Using the BibTeX style's default font for `lastname'.
+babelbib: Using the BibTeX style's default font for `title'.
+babelbib: Using the BibTeX style's default font for `jtitle'.
+babelbib: Using the BibTeX style's default font for `etal'.
+babelbib: Using the BibTeX style's default font for `journal'.
+babelbib: Using the BibTeX style's default font for `volume'.
+babelbib: Using the BibTeX style's default font for `ISBN'.
+babelbib: Using the BibTeX style's default font for `ISSN'.
+babelbib: Using the BibTeX style's default font for `url'.
+babelbib: Using the BibTeX style's default font for `numeral'.
+LaTeX Info: Redefining \sptext on input line 13.
+LaTeX Info: Redefining \lsc on input line 13.
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+LaTeX Info: Redefining \dotlessi on input line 13.
+LaTeX Info: Redefining \sptext on input line 13.
+LaTeX Info: Redefining \lsc on input line 13.
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+LaTeX Info: Redefining \dotlessi on input line 13.
+
+LaTeX Warning: Empty `thebibliography' environment on input line 15.
+
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
+) (./bibliografia.tex
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 2--4
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--7
+Overfull \hbox (1.01965pt too wide) in paragraph at lines 6--8
+[]\T1/cmr/m/n/10 Foro Eco-nó-mi-co Mun-dial. (2023). The Fu-tu-re of Jobs Re-port 2023. WEF. []$\T1/cmtt/m/n/10 https : / / www . weforum .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
+Overfull \hbox (13.02104pt too wide) in paragraph at lines 9--11
+\T1/cmtt/m/n/10 learning _ analytics _ OrLA _ Supporting _ inter-[]stakeholder _ communication _ about _ adoption _ of _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--13
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--19
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--22
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--28
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--31
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
 
 )
-LaTeX Info: Redefining \. on input line 381.
-LaTeX Info: Redefining \% on input line 381.
- [14
+Overfull \hbox (38.84904pt too wide) in paragraph at lines 15--377
+\T1/cmr/m/n/10 CRO. []$\T1/cmtt/m/n/10 https : / / www . unicef . org / lac / informes / ninos-[]y-[]ninas-[]en-[]america-[]latina-[]y-[]el-[]caribe-[]2020$[]
+ []
+
+[13
+
 
 ] (./anexos.tex
 Anexo A.
-) [15
+) [14
 
 
 ]
 No file main.gls.
 LaTeX Info: Redefining \. on input line 409.
 LaTeX Info: Redefining \% on input line 409.
-[16]
+[15]
 No file main.nls.
 (./main.aux
 LaTeX Info: Redefining \. on input line 8.
@@ -985,6 +1007,10 @@ LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
 LaTeX Info: Redefining \. on input line 16.
 LaTeX Info: Redefining \% on input line 16.
+LaTeX Info: Redefining \. on input line 63.
+LaTeX Info: Redefining \% on input line 63.
+LaTeX Info: Redefining \. on input line 64.
+LaTeX Info: Redefining \% on input line 64.
 )
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -998,13 +1024,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 0EF1B0D3242A610A4F18AD69315C810B;3401.
  ) 
 Here is how much of TeX's memory you used:
- 22754 strings out of 474116
- 397221 string characters out of 5743682
- 1937187 words of memory out of 5000000
- 44633 multiletter control sequences out of 15000+600000
+ 22785 strings out of 474116
+ 397539 string characters out of 5743682
+ 1934187 words of memory out of 5000000
+ 44662 multiletter control sequences out of 15000+600000
  570741 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,10n,107p,2398b,1000s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,10n,107p,2402b,1004s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{glo:formula} has been referenced but does not exist, replaced by a fixed one
 
@@ -1012,10 +1038,10 @@ pdfTeX warning (dest): name{glo:formula} has been referenced but does not exist,
 pdfTeX warning (dest): name{glo:latex} has been referenced but does not exist, replaced by a fixed one
 
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsl1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss2488.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfxc1000.pfb>
-Output written on main.pdf (26 pages, 675281 bytes).
+Output written on main.pdf (25 pages, 668634 bytes).
 PDF statistics:
- 370 PDF objects out of 1000 (max. 8388607)
- 302 compressed objects within 4 object streams
- 59 named destinations out of 1000 (max. 500000)
+ 362 PDF objects out of 1000 (max. 8388607)
+ 296 compressed objects within 3 object streams
+ 58 named destinations out of 1000 (max. 500000)
  229 words of extra memory for PDF output out of 10000 (max. 10000000)
 
