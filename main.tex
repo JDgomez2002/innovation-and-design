@@ -31,6 +31,7 @@
 \usepackage{xfrac}
 \usepackage{float}
 \usepackage{mathtools}
+\usepackage{tabularx}
 \usepackage[hypertexnames=false]{hyperref}
 % \usepackage{bookmark}
 \usepackage{subcaption}
@@ -195,17 +196,17 @@
 
 % AGRADECIMIENTOS
 % --------------------------------------------------------------------------------
-\ifdefined\CAPagradecimientos
-	\newpage
-    \cleardoublepage\phantomsection
-	\chapter*{Agradecimientos}
-	\ifdefined\parpordefecto
-    	\defaultparformat{agradecimientos}
-    \else
-    	\input{agradecimientos}
-    \fi 
-	\addcontentsline{toc}{chapter}{Agradecimientos}
-\fi
+% \ifdefined\CAPagradecimientos
+% 	\newpage
+%     \cleardoublepage\phantomsection
+% 	\chapter*{Agradecimientos}
+% 	\ifdefined\parpordefecto
+%     	\defaultparformat{agradecimientos}
+%     \else
+%     	\input{agradecimientos}
+%     \fi 
+% 	\addcontentsline{toc}{chapter}{Agradecimientos}
+% \fi
 
 % ÍNDICE GENERAL
 % --------------------------------------------------------------------------------
@@ -220,23 +221,23 @@
 
 % LISTADO DE FIGURAS
 % --------------------------------------------------------------------------------
-\ifdefined\CAPfiguras
-	\newpage
-    \cleardoublepage\phantomsection
-	\renewcommand{\listfigurename}{Lista de Figuras}
-	\listoffigures
-	\addcontentsline{toc}{chapter}{Lista de Figuras}
-\fi
+% \ifdefined\CAPfiguras
+% 	\newpage
+%     \cleardoublepage\phantomsection
+% 	\renewcommand{\listfigurename}{Lista de Figuras}
+% 	\listoffigures
+% 	\addcontentsline{toc}{chapter}{Lista de Figuras}
+% \fi
 
 % LISTADO DE CUADROS
 % --------------------------------------------------------------------------------
-\ifdefined\CAPcuadros
-	\newpage
-    \cleardoublepage\phantomsection
-	\renewcommand{\listtablename}{Lista de Cuadros}
-	\listoftables
-	\addcontentsline{toc}{chapter}{Lista de Cuadros}
-\fi
+% \ifdefined\CAPcuadros
+% 	\newpage
+%     \cleardoublepage\phantomsection
+% 	\renewcommand{\listtablename}{Lista de Cuadros}
+% 	\listoftables
+% 	\addcontentsline{toc}{chapter}{Lista de Cuadros}
+% \fi
 
 % RESUMEN
 % --------------------------------------------------------------------------------
@@ -290,11 +291,11 @@
 	\fi
 \fi
 
-% MARCO TEÓRICO
+% Metodologia
 % --------------------------------------------------------------------------------
 \ifdefined\CAPmarcoteorico
 	\newpage
-	\chapter{Marco Teórico}
+	\chapter{Metodología}
 	\ifdefined\parpordefecto
 		\defaultparformat{marco_teorico}
 	\else
@@ -302,11 +303,11 @@
 	\fi
 \fi
 
-% ANTECEDENTES
+% CRONOGRAMA DE ACTIVIDADES
 % --------------------------------------------------------------------------------
 \ifdefined\CAPantecedentes
 	\newpage
-	\chapter{Antecedentes}
+	\chapter{Cronograma de actividades}
 	\ifdefined\parpordefecto
     	\defaultparformat{antecedentes}
     \else
@@ -316,24 +317,24 @@
 
 % ALCANCE
 % --------------------------------------------------------------------------------
-\ifdefined\CAPalcance
-	\newpage
-	\chapter{Alcance}
-	\ifdefined\parpordefecto
-    	\defaultparformat{alcance}
-    \else
-    	\input{alcance}
-    \fi 
-\fi
+% \ifdefined\CAPalcance
+% 	\newpage
+% 	\chapter{Alcance}
+% 	\ifdefined\parpordefecto
+%     	\defaultparformat{alcance}
+%     \else
+%     	\input{alcance}
+%     \fi 
+% \fi
 
 % CAPÍTULOS
 % --------------------------------------------------------------------------------
-\newpage
-\ifdefined\parpordefecto
-	\defaultparformat{capitulos}
-\else
-	\input{capitulos}
-\fi
+% \newpage
+% \ifdefined\parpordefecto
+% 	\defaultparformat{capitulos}
+% \else
+% 	\input{capitulos}
+% \fi
 
 % CONCLUSIONES
 % --------------------------------------------------------------------------------
@@ -377,38 +378,38 @@
 
 % ANEXOS
 % --------------------------------------------------------------------------------
-\ifdefined\CAPanexos
-	\newpage
-    \cleardoublepage\phantomsection
-%     \begin{center}
-%     	\vspace*{\fill}
-%     	\Huge Anexos
-%     	\vspace*{\fill}
-%     \end{center}
-    \addcontentsline{toc}{chapter}{Anexos}
-    \renewcommand{\chaptername}{Anexo}
-    \setcounter{chapter}{0}
-	\renewcommand{\thechapter}{\Alph{chapter}}
-	\ifdefined\parpordefecto
-    	\defaultparformat{anexos}
-    \else
-    	\input{anexos}
-    \fi
-\fi
+% \ifdefined\CAPanexos
+% 	\newpage
+%     \cleardoublepage\phantomsection
+% %     \begin{center}
+% %     	\vspace*{\fill}
+% %     	\Huge Anexos
+% %     	\vspace*{\fill}
+% %     \end{center}
+%     \addcontentsline{toc}{chapter}{Anexos}
+%     \renewcommand{\chaptername}{Anexo}
+%     \setcounter{chapter}{0}
+% 	\renewcommand{\thechapter}{\Alph{chapter}}
+% 	\ifdefined\parpordefecto
+%     	\defaultparformat{anexos}
+%     \else
+%     	\input{anexos}
+%     \fi
+% \fi
 
 % GLOSARIO
 % --------------------------------------------------------------------------------
-\ifdefined\CAPglosario
-	\newpage
-	\printglossary
-\fi
+% \ifdefined\CAPglosario
+% 	\newpage
+% 	\printglossary
+% \fi
 
 % LISTADO DE SÍMBOLOS
 % --------------------------------------------------------------------------------
-\ifdefined\CAPsimbolos
-	\newpage
-    \cleardoublepage\phantomsection
-    \printnomenclature
-\fi
+% \ifdefined\CAPsimbolos
+% 	\newpage
+%     \cleardoublepage\phantomsection
+%     \printnomenclature
+% \fi
 
 \end{document}
