@@ -1,81 +1,58 @@
-La presente investigación adopta un enfoque metodológico mixto, combinando el análisis cuantitativo mediante herramientas psicométricas y encuestas, y el análisis cualitativo mediante revisión documental. Este trabajo se orienta al área de la educación, abarcando tanto la educación privada como la pública, y está dirigido a resolver los problemas educacionales que afectan a América Latina. El objetivo es explorar la relación entre los rasgos de personalidad, las habilidades percibidas y la elección vocacional de los estudiantes universitarios, así como identificar patrones que expliquen los casos de deserción o cambio de carrera, sentando las bases para recomendaciones dirigidas a mejorar los procesos de orientación y apoyo en el ámbito educativo.
+La presente investigación adopta un enfoque de ingeniería tecnológica aplicada, orientado al diseño, implementación y validación de una infraestructura backend segura, escalable y de alto rendimiento, que sirva de soporte a un sistema inteligente de orientación vocacional. El enfoque metodológico sigue los principios del desarrollo ágil y DevOps, priorizando prácticas de diseño de sistemas distribuidos, seguridad informática, disponibilidad de servicios y eficiencia computacional.
 
-\section{Observación y búsqueda documental}
+\section{Análisis y planeación}
 
-Se llevará a cabo una revisión exhaustiva de literatura y fuentes secundarias relevantes en psicología, orientación vocacional, y en el contexto educacional de la región latinoamericana. Esta fase permitirá fundamentar teóricamente la investigación y seleccionar herramientas válidas para la medición.
+Se realiza una definición detallada de los requerimientos funcionales y no funcionales del servicio backend:
 
 \begin{itemize}
-    \item Revisión de teorías sobre personalidad, especialmente el modelo de los cinco grandes factores.
-    \item Análisis de pruebas psicométricas aplicables a contextos vocacionales.
-    \item Revisión de literatura sobre la correlación entre personalidad, habilidades y elección vocacional.
-    \item Investigación de tendencias laborales actuales y futuras por carrera.
-    \item Consulta de estudios previos sobre deserción universitaria y satisfacción estudiantil, con especial énfasis en el contexto latinoamericano.
+    \item Seguridad de la información (autenticación JWT, cifrado en tránsito y en reposo).
+    \item Escalabilidad horizontal y vertical.
+    \item Alta disponibilidad y tolerancia a fallos.
+    \item Tiempo de respuesta óptimo.
+    \item Modularidad mediante microservicios.
+    \item Integración con modelos de recomendación y clasificación externos.
 \end{itemize}
 
-\section{Instrumentación y recolección de datos}
-
-Los datos se recopilarán mediante instrumentos psicométricos y encuestas estructuradas, aplicados a estudiantes universitarios de instituciones tanto públicas como privadas. Además, se integrarán estadísticas institucionales para complementar el análisis.
+\section{Diseño de la arquitectura backend}
 
 \begin{itemize}
-    \item Aplicación del test de personalidad IPIP-NEO-120 de Johnson (2014), basado en el modelo NEO-PI-R de Costa y McCrae (1992), disponible en: \url{https://ipip.ori.org/30FacetNEO-PI-RItems.htm}.
-    \item Encuestas a estudiantes para recopilar datos sobre:
-    \begin{itemize}
-        \item Habilidades percibidas.
-        \item Grado de satisfacción con la carrera actual.
-        \item Motivaciones de elección vocacional.
-        \item Antecedentes de cambio de carrera o intención de hacerlo.
-        \item Percepción del acompañamiento institucional.
-    \end{itemize}
-    \item Recolección de datos institucionales:
-    \begin{itemize}
-        \item Tasas de deserción por carrera.
-        \item Registros de cambio de carrera.
-        \item Resultados de encuestas de satisfacción estudiantil.
-        \item Datos demográficos generales.
-    \end{itemize}
+    \item Diseño de arquitectura basada en microservicios y APIs RESTful.
+    \item Especificación de flujos de datos y control, conforme al diagrama de secuencia propuesto.
+    \item Selección de tecnologías (Docker, Kubernetes, API Gateway, OAuth, etc.).
+    \item Definición de políticas de autenticación, autorización, logging y monitoreo.
 \end{itemize}
 
-\section{Registro de datos y creación del dataset}
-
-Una vez recolectada la información, ésta será sistematizada y almacenada en un dataset estructurado, respetando principios de confidencialidad y calidad de datos.
+\section{Implementación del sistema}
 
 \begin{itemize}
-    \item Definición de variables cuantitativas y cualitativas.
-    \item Codificación de datos para análisis posterior.
-    \item Anonimización de información personal.
-    \item Almacenamiento del dataset en software de análisis estadístico (Python y almacenar resultados en formato CSV).
+    \item Construcción de endpoints para autenticación, consulta de sugerencias, y resultados de modelos de IA.
+    \item Integración con servicios de clasificación y generación de recomendaciones vocacionales.
+    \item Implementación de base de datos segura y sistemas de caché para optimizar la latencia.
+    \item Desarrollo de herramientas para trazabilidad, auditoría y control de errores.
 \end{itemize}
 
-\section{Análisis e interpretación de datos}
-
-El dataset será analizado con técnicas estadísticas y de correlación para identificar patrones relevantes en la elección vocacional, satisfacción y deserción.
+\section{Pruebas y validación}
 
 \begin{itemize}
-    \item Cálculo de correlaciones entre rasgos de personalidad y satisfacción vocacional.
-    \item Identificación de perfiles frecuentes en casos de cambio de carrera.
-    \item Análisis predictivo de deserción basado en personalidad y habilidades.
-    \item Segmentación de la muestra para identificar diferencias significativas.
+    \item Pruebas unitarias y de integración.
+    \item Pruebas de carga y estrés para validar la escalabilidad del sistema.
+    \item Pruebas de seguridad contra amenazas comunes (XSS, CSRF, inyecciones).
+    \item Simulación de concurrencia para evaluar rendimiento bajo alta demanda.
 \end{itemize}
 
-\section{Identificación de problemas}
-
-Con base en los datos analizados, se buscará detectar los principales factores que dificultan la elección vocacional adecuada y la permanencia en el sistema educativo.
+\section{Despliegue e infraestructura}
 
 \begin{itemize}
-    \item Falta de información o autoconocimiento al elegir una carrera.
-    \item Desajuste entre la personalidad del estudiante y el perfil de la carrera.
-    \item Frustración o desmotivación vinculada a la elección educativa.
-    \item Necesidad de una orientación vocacional más personalizada y adaptada, considerando los desafíos tanto de la educación pública como privada.
+    \item Automatización del proceso de integración y entrega continua (CI/CD).
+    \item Despliegue en infraestructura cloud (AWS, GCP, o Azure).
+    \item Implementación de balanceadores de carga, autoescalado y recuperación ante fallos.
+    \item Monitoreo activo con herramientas como Prometheus, Grafana y alertas configuradas.
 \end{itemize}
 
-\section{Recomendaciones}
-
-Los resultados del estudio permitirán emitir recomendaciones concretas, orientadas a transformar y mejorar los procesos de orientación vocacional en instituciones educativas, con miras a resolver los problemas que afectan a la educación en América Latina.
+\section{Documentación y evaluación}
 
 \begin{itemize}
-    \item Integrar herramientas psicométricas en los procesos de orientación desde el ingreso a las instituciones.
-    \item Fortalecer el acompañamiento institucional mediante asesorías personalizadas en el ámbito educativo.
-    \item Prevenir la deserción mediante estrategias de apoyo individualizadas y seguimiento académico.
-    \item Desarrollar plataformas inteligentes que sugieran carreras y especializaciones basadas en la personalidad, habilidades e intereses del estudiante.
-    \item Orientar las recomendaciones hacia la mejora del sistema educativo, contribuyendo al diseño de políticas y estrategias que beneficien tanto a la educación pública como privada en América Latina, tomando en cuenta las referencias y citas bibliográficas disponibles en la literatura (e.g., (Chauhan et al., 2020), (Prieto-Alvarez et al., 2018), (UNICEF, 2020)).
+    \item Documentación técnica del backend (Swagger/OpenAPI).
+    \item Evaluación de métricas clave (latencia, disponibilidad, rendimiento).
+    \item Análisis de riesgos y propuesta de mejoras para futuras versiones del sistema.
 \end{itemize}
